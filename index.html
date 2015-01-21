@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <title>Promise with bluebird</title>
+</head>
+<body>
+  <input type="button" value="add" data-bind="click: add">
+  <ul style="font-family: menlo, inconsolata, monaco, monospace">
+  <!-- ko foreach: list -->
+    <li data-bind="text: text"></li>
+  <!-- /ko -->
+  </ul>
+  <script src="bluebird.min.js"></script>
+  <script src="knockout-3.2.0.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
